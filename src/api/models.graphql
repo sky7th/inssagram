@@ -21,7 +21,7 @@ type User {
 
 type Post {
   id: ID! 
-  lacation: String
+  location: String
   caption: String!
   user: User!
   files: [File!]!
